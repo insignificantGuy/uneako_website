@@ -1,0 +1,22 @@
+.headings{
+	font-size:60px;
+	text-align: center;
+	font-family: 'Dancing Script', cursive;
+}
+
+.subHeadings{
+	font-size: 26px;
+	text-align: center;
+	font-family: 'Caveat', cursive;
+}
+
+a {
+  color: #BCC6C8;
+  transition: 0.5s;
+}
+
+a:hover, a:active, a:focus {
+  color: #03c5ec;
+  outline: none;
+  text-decoration: none;
+}
