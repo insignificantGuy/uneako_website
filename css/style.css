@@ -285,6 +285,12 @@ h1, h2, h3, h4, h5, h6 {
   list-style: none;
 }
 
+@media and only screen(max-width: 600px){
+  #header{
+    width: 100%;
+  }
+}
+
 .nav-menu ul {
   position: absolute;
   display: none;
@@ -726,6 +732,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size:12px;
 }
 }
+
+
 /* Portfolio Section
 --------------------------------*/
 #portfolio {
@@ -933,6 +941,42 @@ a:hover, a:active, a:focus {
   outline: none;
   text-decoration: none;
 }
+
+
+/* Button Section
+--------------------------------*/
+
+#buttonSection{
+  width: 100%;
+}
+
+.button {
+          background-color:rgb(5, 95, 9);
+          border:none;
+          color: white;
+          padding: 15px 60px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 20px;
+          margin-left: 40%;
+          cursor: pointer;
+        }
+
+@media screen and (max-width: 750px){
+              .button{
+              background-color:rgb(5, 95, 9);
+              border:none;
+              color: white;
+              padding: 15px 60px;
+              text-align: center;
+              text-decoration: none;
+              display: inline-block;
+              font-size: 20px;
+              margin-left: 40%;
+              cursor: pointer;
+              }
+            }
 
 
 /* Team Section
