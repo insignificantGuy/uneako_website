@@ -80,6 +80,38 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
+
+/*button styling*/
+.button {
+              background-color:rgb(5, 95, 9);
+              border:none;
+              color: white;
+              padding: 15px 60px;
+              text-align: center;
+              text-decoration: none;
+              display: inline-block;
+              font-size: 20px;
+              margin-left: auto;
+              margin-right: auto;
+              cursor: pointer;
+            }
+
+            @media screen and (max-width: 750px){
+              .button{
+              background-color:rgb(5, 95, 9);
+              border:none;
+              color: white;
+              padding: 15px 60px;
+              text-align: center;
+              text-decoration: none;
+              display: inline-block;
+              font-size: 20px;
+              margin-left: auto;
+              margin-right: auto;
+              cursor: pointer;
+              }
+            }
+
 /*--------------------------------------------------------------
 # Welcome
 --------------------------------------------------------------*/
@@ -886,6 +918,20 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .fadeIn-bottom{
   top: 80%;
+}
+
+
+/*Links
+-------------------------------*/
+a {
+  color: #BCC6C8;
+  transition: 0.5s;
+}
+
+a:hover, a:active, a:focus {
+  color: #03c5ec;
+  outline: none;
+  text-decoration: none;
 }
 
 
